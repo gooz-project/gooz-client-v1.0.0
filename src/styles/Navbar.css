@@ -1,0 +1,123 @@
+.navbar {
+  overflow: auto;
+  background-color: #333;
+  color: white;
+}
+
+.nav-brand {
+  float: left;
+  width: 250px;
+  height: 69px;
+}
+
+.nav-brand a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.nav-brand span {
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.workspace-list {
+  display: flex;
+}
+
+.list-item-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 69px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.list-item-btn-close {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  border-radius: 50%;
+}
+
+.list-item-btn-close:hover {
+  background-color: #333;
+}
+
+.list-item-register-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: flex;
+  height: 69px;
+  cursor: pointer;
+}
+
+.register:before,
+.register:after {
+  position: absolute;
+  content: "";
+  top: 26px;
+  left: 20px;
+  height: 17px;
+  width: 3px;
+  background-color: white;
+}
+
+.register::before {
+  transform: rotate(90deg);
+}
+
+.list-item-link ul {
+  display: flex;
+  overflow: hidden;
+  height: 24px;
+  padding: 0 10px;
+}
+
+.list-item-workspace-name {
+  width: 20ch;
+  padding-right: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.activeTab {
+  min-width: 75px;
+  background-color: #111;
+}
+
+.activeTab .list-item-workspace-name {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.inactiveTab {
+  min-width: 75px;
+}
+
+.inactiveTab:hover {
+  background-color: #222;
+}
+
+.activeRegisterTab {
+  min-width: 43px;
+  background-color: #111;
+}
+
+.inactiveRegisterTab {
+  min-width: 43px;
+}
+
+.inactiveRegisterTab:hover {
+  background-color: #222;
+}

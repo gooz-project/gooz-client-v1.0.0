@@ -1,0 +1,54 @@
+.select-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: visible;
+  justify-content: center;
+  flex: 1 1 200px;
+}
+
+select {
+  height: 32px;
+  border-radius: 5px;
+  border: none;
+}
+
+.select-label {
+  display: flex;
+  align-items: center;
+  height: 29px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.select-container .yup-message {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  right: 0;
+  top: 0px;
+  align-items: center;
+}
+
+.select-container .yup-label {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #555;
+  height: 24px;
+  padding: 0 10px;
+  border-radius: 5px;
+}
+
+.select-container .yup-label p {
+  line-height: 1;
+}
+
+.select-container .arrow {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #555;
+}

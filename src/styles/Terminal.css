@@ -1,0 +1,105 @@
+.base-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
+}
+
+.terminal-body {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding: 8px;
+  overflow: auto;
+  scroll-behavior: smooth;
+}
+
+.terminal-body li {
+  user-select: text;
+}
+
+.command-li {
+  display: flex;
+}
+
+.command-li>span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 21px;
+}
+
+.command-li div {
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.terminal-list div>span {
+  text-align: center;
+  min-width: 30px;
+}
+
+.terminal-list div>li {
+  word-wrap: break-word;
+  margin-right: 10px;
+}
+
+.scroll-button {
+  opacity: 0;
+  position: sticky;
+  bottom: 0px;
+  float: right;
+  display: flex;
+  border: none;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.form-terminal {
+  display: flex;
+  width: 100%;
+}
+
+.form-terminal input {
+  padding: 0 5px;
+  border: 1px solid #333;
+  width: 100%;
+  height: 25px;
+}
+
+.form-terminal button {
+  height: 25px;
+  cursor: pointer;
+  min-width: fit-content;
+  width: 100px;
+  border: 1px solid #333;
+  border-left: none;
+  background-color: white;
+  font-weight: bolder;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-terminal button:disabled {
+  opacity: 0.5;
+}
+
+.form-terminal button:active {
+  cursor: pointer;
+  min-width: fit-content;
+  width: 100px;
+  border: 1px solid white;
+  background-color: #333;
+  font-weight: bolder;
+  color: white;
+}
+
+.send-icon {
+  margin-left: 5px;
+}

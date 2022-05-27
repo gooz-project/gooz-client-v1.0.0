@@ -1,0 +1,55 @@
+.input-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: visible;
+  justify-content: center;
+  flex: 1 1 200px;
+}
+
+input {
+  height: 32px;
+  padding: 0 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.input-label {
+  display: flex;
+  align-items: center;
+  height: 29px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.input-container .yup-message {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  right: 0;
+  top: 0px;
+  align-items: center;
+}
+
+.input-container .yup-label {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #555;
+  height: 24px;
+  padding: 0 10px;
+  border-radius: 5px;
+}
+
+.input-container .yup-label p {
+  line-height: 1;
+}
+
+.input-container .arrow {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #555;
+}

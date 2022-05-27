@@ -1,0 +1,13 @@
+.line-chart-container {
+  position: relative;
+  display: flex;
+  background-color: white;
+  align-items: center;
+  padding: 8px;
+}
+
+.line-chart {
+  display: flex;
+  max-height: 100%;
+  max-width: 100%;
+}

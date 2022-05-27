@@ -1,0 +1,52 @@
+.list-item-menu-active {
+  display: flex;
+  cursor: pointer;
+  padding: 10px;
+  height: 35px;
+  align-items: center;
+  background-color: #111;
+}
+
+.list-item-menu-inactive {
+  display: flex;
+  cursor: pointer;
+  padding: 10px;
+  height: 35px;
+  align-items: center;
+}
+
+.list-item-menu-inactive:hover {
+  background-color: #222;
+}
+
+.div-list-item-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.div-list-item-menu h4 {
+  width: 100%;
+}
+
+.list-card-info li {
+  margin-left: 10px;
+  user-select: text;
+}
+
+.list-widgets li {
+  display: flex;
+  cursor: pointer;
+  padding-left: 10px;
+  height: 30px;
+  align-items: center;
+}
+
+.list-widgets li:hover {
+  background-color: #222;
+}
+
+.list-path p {
+  padding-left: 10px;
+}

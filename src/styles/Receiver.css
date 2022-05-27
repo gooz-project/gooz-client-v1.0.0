@@ -1,0 +1,19 @@
+.receiver-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.receiver-container-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20%;
+}
+
+.receiver-container-body {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+}

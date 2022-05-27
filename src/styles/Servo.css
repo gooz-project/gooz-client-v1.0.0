@@ -1,0 +1,152 @@
+.servo-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 26px;
+}
+
+.servo-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.servo-form input {
+  height: 32px;
+  margin-bottom: 20px;
+  width: 200px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.continue-button {
+  cursor: pointer;
+  height: 36px;
+  width: 100px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color: unset;
+  font-weight: bolder;
+  color: white;
+}
+
+.continue-button:hover {
+  border: none;
+  background-color: white;
+  color: #333;
+}
+
+.waiting-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  height: 36px;
+  width: 100px;
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color: unset;
+  font-weight: bolder;
+  border: none;
+  background-color: white;
+  color: #333;
+}
+
+.servo-control-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #333;
+}
+
+.decrease-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.decrease-button {
+  position: relative;
+  display: flex;
+  height: 33px;
+  width: 33px;
+}
+
+.decrease-button:hover {
+  background-color: #444;
+}
+
+.decrease-button:before {
+  position: absolute;
+  content: "";
+  left: 15px;
+  top: 4px;
+  height: 25px;
+  width: 3px;
+  background-color: white;
+}
+
+.decrease-button::before {
+  transform: rotate(90deg);
+}
+
+.increase-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.increase-button {
+  position: relative;
+  display: flex;
+  height: 33px;
+  width: 33px;
+}
+
+.increase-button:hover {
+  background-color: #444;
+}
+
+.increase-button:before,
+.increase-button:after {
+  position: absolute;
+  content: "";
+  left: 15px;
+  top: 4px;
+  height: 25px;
+  width: 3px;
+  background-color: white;
+}
+
+.increase-button::before {
+  transform: rotate(90deg);
+}
+
+.input-output-div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.input-div {
+  margin: 30px 0;
+}
+
+.input-div button {
+  padding: 0 5px;
+}
+
+.input-output-div input {
+  width: 75px;
+}

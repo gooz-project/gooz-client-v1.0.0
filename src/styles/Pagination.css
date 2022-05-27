@@ -1,0 +1,28 @@
+.pagination-container {
+  padding: 1% 0;
+}
+
+.list-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  overflow: hidden;
+}
+
+.list-pagination li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 25px;
+}
+
+.list-pagination li span {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.circle{
+  cursor: pointer;
+}

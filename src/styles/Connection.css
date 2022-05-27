@@ -1,0 +1,63 @@
+.connection-form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.connection-form-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+}
+
+.connection-form-body {
+  height: calc(100% - 90px);
+  padding: 0 20px;
+  overflow: auto;
+}
+
+.connection-form-inputs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.connection-form-footer {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  height: 45px;
+  padding: 0 20px;
+}
+
+.active-button {
+  cursor: pointer;
+  height: 32px;
+  width: 120px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: unset;
+  font-weight: bolder;
+  color: white;
+  margin-left: 10px;
+}
+
+.inactive-button {
+  cursor: pointer;
+  height: 32px;
+  width: 120px;
+  border: none;
+  border-radius: 5px;
+  background-color: unset;
+  font-weight: bolder;
+  color: #333;
+  background-color: white;
+}
+
+.connection-form-footer button:hover {
+  border: none;
+  background-color: white;
+  color: #333;
+}

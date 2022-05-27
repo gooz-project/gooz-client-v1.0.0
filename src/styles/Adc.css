@@ -1,0 +1,60 @@
+.adc-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 26px;
+}
+
+.adc-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.adc-form input {
+  height: 32px;
+  margin-bottom: 20px;
+  width: 200px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.continue-button {
+  cursor: pointer;
+  height: 36px;
+  width: 100px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color: unset;
+  font-weight: bolder;
+  color: white;
+}
+
+.continue-button:hover {
+  border: none;
+  background-color: white;
+  color: #333;
+}
+
+.waiting-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  height: 36px;
+  width: 100px;
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color: unset;
+  font-weight: bolder;
+  border: none;
+  background-color: white;
+  color: #333;
+}
