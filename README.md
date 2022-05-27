@@ -7,8 +7,6 @@ Gooz Client is a web application to communicate with microcontrollers. Client pr
 
 ## Layouts
 
----
-
 Gooz Client has three main layouts: navigation bar, side bar and container.
 
 ![Area surrounded by red is Navigation Bar, blue is Side Bar and green is Container.]![Layouts](https://user-images.githubusercontent.com/75067014/170726491-216c1764-a378-4369-a3e3-d330dbce35a6.png)
@@ -17,7 +15,6 @@ Area surrounded by red is Navigation Bar, blue is Side Bar and green is Containe
 
 ### Navigation Bar
 
----
 
 The Navigation Bar consists of three main parts in itself. The first of these parts is **The Brand Part** with “GOOZ Client”. The second part is **The Workspace Tabs Part** which includes workspaces created by the users. In this part, users could delete and switch their own workspaces. The last part is **The Register Part** contains the register button. This part redirects to the registration page.
 
@@ -25,7 +22,6 @@ The Navigation Bar consists of three main parts in itself. The first of these pa
 
 ### Side Bar
 
----
 
 ![Sidebar1](https://user-images.githubusercontent.com/75067014/170726692-2f15281d-feca-4197-8b43-e83c40639ecc.png)
 
@@ -33,7 +29,6 @@ The Side Bar shows the properties of created workspace. This bar consists of 3 p
 
 ### Container
 
----
 
 The container contains the widgets and makes them show up neatly.
 
@@ -41,11 +36,9 @@ The container contains the widgets and makes them show up neatly.
 
 ## **Specifications**
 
----
 
 ### Terminal
 
----
 
 The Terminal on the client connects to Gooz’s terminal and allows to communicate with Gooz. The terminal generally works like a normal terminal. With this terminal, the user can send various commands to the card and receives various outputs from cards. 
 
@@ -55,7 +48,6 @@ The Terminal on the client connects to Gooz’s terminal and allows to communica
 
 ### Data Monitoring
 
----
 
 The user can perform data monitoring by using the Line Chart in the widgets section. A chart type is selected by the user from the Line Chart section and the line chart of that type is displayed on the screen. Data that come from the card is shown on this line chart and instantaneous changes in data are reflected instantly on the line chart. There are two chart types that the user can choose from. One of these types is the temperature line chart. This chart shows the temperature of the CPU. 
 
@@ -69,7 +61,6 @@ Another type is the ADC (Analog to Digital Converter) line chart. This chart rea
 
 ### Servo Interface
 
----
 
 Servo Interface provides controlling servo motor with angle.
 
@@ -79,7 +70,6 @@ Servo Interface provides controlling servo motor with angle.
 
 ## Usage
 
----
 
 - Clicking ‘**GOOZ Client’**, directs you to the home page.
 
