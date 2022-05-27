@@ -2,7 +2,6 @@
 
 ## Introduction
 
----
 
 Gooz Client is a web application to communicate with microcontrollers. Client provides sending commands to microcontrollers, visual interface for data monitoring and tools for specific peripheral devices. 
 
