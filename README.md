@@ -1,4 +1,4 @@
-# Gooz Client
+# Gooz Client User Document
 
 ## Introduction
 
@@ -11,10 +11,8 @@ Gooz Client is a web application to communicate with microcontrollers. Client pr
 ---
 
 Gooz Client has three main layouts: navigation bar, side bar and container.
-![Layouts](https://user-images.githubusercontent.com/75067014/170714959-e679946d-3e07-4047-97c3-5ab7b552dee3.png)
-![Layouts](https://user-images.githubusercontent.com/75067014/170715023-df616294-1b59-4211-8a9b-c2e47f5b7aba.png)
 
-![Area surrounded by red is Navigation Bar, blue is Side Bar and green is Container.](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ece16995-9db3-4c9d-b369-4cf294629fc0/Layouts.png)
+![Area surrounded by red is Navigation Bar, blue is Side Bar and green is Container.]![Layouts](https://user-images.githubusercontent.com/75067014/170726491-216c1764-a378-4369-a3e3-d330dbce35a6.png)
 
 Area surrounded by red is Navigation Bar, blue is Side Bar and green is Container.
 
@@ -24,13 +22,13 @@ Area surrounded by red is Navigation Bar, blue is Side Bar and green is Containe
 
 The Navigation Bar consists of three main parts in itself. The first of these parts is **The Brand Part** with “GOOZ Client”. The second part is **The Workspace Tabs Part** which includes workspaces created by the users. In this part, users could delete and switch their own workspaces. The last part is **The Register Part** contains the register button. This part redirects to the registration page.
 
-![Navbar.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d2a1288d-0c51-4f46-adf1-6bb02b4f101e/Navbar.png)
+![Navbar](https://user-images.githubusercontent.com/75067014/170726595-bd26ac60-6331-4455-a2eb-028c23080d47.png)
 
 ### Side Bar
 
 ---
 
-![Sidebar1.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f676146a-b638-4303-8dda-a57b529ff29a/Sidebar1.png)
+![Sidebar1](https://user-images.githubusercontent.com/75067014/170726692-2f15281d-feca-4197-8b43-e83c40639ecc.png)
 
 The Side Bar shows the properties of created workspace. This bar consists of 3 parts. The first of these parts is **Card’s Info***.* This part contains the data entered by the user. These data are *Workspace Name*, *Card Name*, *Card Type*, *Connection Type,* and *Connection Address*. For example, If ‘Workspace Name’ is called ‘Workspace 5’, ‘Card Name’ is called ‘Gooz’ and ‘Card Type’ is chosen as ‘esp32’, ‘Connection Type’ is chosen ‘com-port’, ‘Connection Address’ is chosen ‘COM5’, this part looks like the figure. The second of these part is **Widgets**. The user accesses the terminal and line chart from this part.
 
@@ -40,7 +38,7 @@ The Side Bar shows the properties of created workspace. This bar consists of 3 p
 
 The container contains the widgets and makes them show up neatly.
 
-![Container.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7b0f5475-4218-409d-b4e9-538610148872/Container.png)
+![Container](https://user-images.githubusercontent.com/75067014/170726793-8367a128-2905-4bdd-98a7-22f5eb20ed03.png)
 
 ## **Specifications**
 
