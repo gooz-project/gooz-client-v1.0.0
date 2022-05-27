@@ -11,6 +11,8 @@ Gooz Client is a web application to communicate with microcontrollers. Client pr
 ---
 
 Gooz Client has three main layouts: navigation bar, side bar and container.
+![Layouts](https://user-images.githubusercontent.com/75067014/170714959-e679946d-3e07-4047-97c3-5ab7b552dee3.png)
+![Layouts](https://user-images.githubusercontent.com/75067014/170715023-df616294-1b59-4211-8a9b-c2e47f5b7aba.png)
 
 ![Area surrounded by red is Navigation Bar, blue is Side Bar and green is Container.](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ece16995-9db3-4c9d-b369-4cf294629fc0/Layouts.png)
 
