@@ -50,9 +50,9 @@ The container contains the widgets and makes them show up neatly.
 
 The Terminal on the client connects to Gooz’s terminal and allows to communicate with Gooz. The terminal generally works like a normal terminal. With this terminal, the user can send various commands to the card and receives various outputs from cards. 
 
-![Terminal_1.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9e758a10-aa6c-4150-9e12-19ee8ac6851d/Terminal_1.png)
+![Terminal_1](https://user-images.githubusercontent.com/75067014/170727448-46096309-cd77-46fe-baf5-de2f4afd7cb9.png)
 
-![Terminal_2.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5677ed60-163d-4c03-950e-99c5e833b743/Terminal_2.png)
+![Terminal_2](https://user-images.githubusercontent.com/75067014/170727497-36bcfa74-9b5a-468a-a2fe-55eedc8d579a.png)
 
 ### Data Monitoring
 
@@ -60,13 +60,13 @@ The Terminal on the client connects to Gooz’s terminal and allows to communica
 
 The user can perform data monitoring by using the Line Chart in the widgets section. A chart type is selected by the user from the Line Chart section and the line chart of that type is displayed on the screen. Data that come from the card is shown on this line chart and instantaneous changes in data are reflected instantly on the line chart. There are two chart types that the user can choose from. One of these types is the temperature line chart. This chart shows the temperature of the CPU. 
 
-![Temperature.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5908f649-7d24-432e-9568-9474d5ec47d3/Temperature.png)
+![Temperature](https://user-images.githubusercontent.com/75067014/170727524-148b7b14-1c6f-417b-a685-30d9e35b5bc8.png)
 
 Another type is the ADC (Analog to Digital Converter) line chart. This chart reads the analog value from the pin, converts it to digital, and prints it as output.
 
-![ADC_1.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8f708f80-e7dd-4fa0-9e95-97cb3e9456a0/ADC_1.png)
+![ADC_1](https://user-images.githubusercontent.com/75067014/170727558-93ca4c75-5714-45b6-882c-559045382715.png)
 
-![ADC_2.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/91dfa4db-8930-4a24-af0d-e3c972fa27e8/ADC_2.png)
+![ADC_2](https://user-images.githubusercontent.com/75067014/170727581-95d57307-4821-4805-af66-9e7a1fe647c6.png)
 
 ### Servo Interface
 
@@ -74,9 +74,9 @@ Another type is the ADC (Analog to Digital Converter) line chart. This chart rea
 
 Servo Interface provides controlling servo motor with angle.
 
-![Servo_1.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bfb3691d-e496-487c-b187-2612665fc64a/Servo_1.png)
+![Servo_1](https://user-images.githubusercontent.com/75067014/170727609-189e3939-5651-4bb4-8148-92494bcdefd5.png)
 
-![Servo_2.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b1e4b29a-3c24-47f5-a3dc-937f3cec3b8e/Servo_2.png)
+![Servo_2](https://user-images.githubusercontent.com/75067014/170727627-54619341-b4b3-4291-b115-87674cf8829d.png)
 
 ## Usage
 
@@ -84,30 +84,30 @@ Servo Interface provides controlling servo motor with angle.
 
 - Clicking ‘**GOOZ Client’**, directs you to the home page.
 
-![goozclientbutton.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/718eae04-f421-4433-bece-39f4926cf2af/goozclientbutton.jpeg)
+![goozclientbutton](https://user-images.githubusercontent.com/75067014/170727650-f3ee7f8a-d3dc-496d-98a3-524d82537fe2.jpeg)
 
 - Pressing the ‘**+**’ button will take you to the registration page. After the values are written in the input fields, the workspace is saved by pressing the ‘**Add New Workspace**’ button.
 
-![+ butonu.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/74de6cba-34d1-4ce4-9712-be0ff223ae5d/_butonu.jpeg)
+![+ butonu](https://user-images.githubusercontent.com/75067014/170727668-eadf291c-86a9-405a-8d90-6bb865cc402b.jpeg)
 
-![add.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4a6d6792-3262-447d-add1-9fcf793e730b/add.jpeg)
+!![add](https://user-images.githubusercontent.com/75067014/170727753-e5557160-c5c3-4ae7-ad1d-cb06278cac8d.jpeg)
 
 - The workspace can be deleted by pressing the ‘**x**’ button next to the workspace name or the user can navigate among workspaces.
 
-![workspaceler.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/402704cf-17fb-4cf8-a657-7e598be86cca/workspaceler.jpeg)
+![workspaceler](https://user-images.githubusercontent.com/75067014/170727779-72988c71-a20b-4f53-b187-be283405a54c.jpeg)
 
 - The values entered in the register field are displayed by clicking the ‘**Card's Info’** button in the Side Bar.
 
-![Cards_Info.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3860253d-65f6-4961-850d-35447983908e/Cards_Info.png)
+![Cards_Info](https://user-images.githubusercontent.com/75067014/170727808-4adb4888-59d7-4944-ab78-23fbee1b3007.png)
 
 - Terminal or Line Chart selection is made by clicking on the ‘**Widgets’** area.
 
-![Widgets.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b24b4f81-bc06-44d2-9702-e7acb922adc8/Widgets.png)
+![Widgets](https://user-images.githubusercontent.com/75067014/170727836-bac6fa2e-f8f7-4d35-beaa-be3a23700a31.png)
 
 - Pressing the ‘**Terminal’** area opens the terminal. The command is entered in the white area under the terminal and the command is sent to the card by clicking the send button. Then the outputs are printed to the terminal. The terminal can be closed by pressing the red ‘**x’** button in the upper right corner of the terminal screen.
     
-    ![Terminal_1.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5c994f59-7c4e-4faa-ba1d-524452f5e548/Terminal_1.png)
+    ![Terminal2_1](https://user-images.githubusercontent.com/75067014/170727865-0ffd8a9f-ec27-485c-a43e-3b46a94a6990.png)
     
-    ![Terminal_2.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cb958d7c-883a-4492-9753-307ef1802a88/Terminal_2.png)
+    ![Terminal2_2](https://user-images.githubusercontent.com/75067014/170727988-6e2f4392-feb1-4ed0-94cc-e58095bfb512.png)
     
 - The chart type is selected by clicking on the ‘**LineChart’** field, and the line chart is created in the container layout according to the chart type selected by clicking the ‘**Add’** button, or it is canceled by clicking the ‘**Cancel**’ button. The line chart can be closed by clicking the ‘**x**’ button in the upper right corner of the line chart.
