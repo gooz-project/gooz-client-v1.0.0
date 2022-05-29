@@ -9,7 +9,7 @@ Gooz Client is a web application to communicate with microcontrollers. Client pr
 - Gorkem Aktas
 - Ozgur Karaaslan
 - Mert Yurttutar
-- Orkun 
+- Orkun Konak
 
 ## Layouts
 
